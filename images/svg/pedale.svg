@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57.547" height="49.065" viewBox="0 0 57.547 49.065">
+  <g id="pedale" transform="translate(-709.638 -524.163)">
+    <path id="Tracé_7" data-name="Tracé 7" d="M855.584-409.69,845.555-435.6l-17.684,6.938-.365-.931,18.619-7.305,10.391,26.845Z" transform="translate(-117.867 961.059)" fill="#707070"/>
+    <path id="Tracé_8" data-name="Tracé 8" d="M27.9,26.557,17.866.649.183,7.587l-.365-.931L18.436-.649,28.828,26.2Z" transform="translate(766.54 572.576) rotate(-179)" fill="#707070"/>
+    <circle id="Ellipse_20" data-name="Ellipse 20" cx="12.5" cy="12.5" r="12.5" transform="translate(727 538)" fill="#212121"/>
+    <path id="Ellipse_20_-_Contour" data-name="Ellipse 20 - Contour" d="M12.5,1A11.5,11.5,0,0,0,4.368,20.632,11.5,11.5,0,0,0,20.632,4.368,11.425,11.425,0,0,0,12.5,1m0-1A12.5,12.5,0,1,1,0,12.5,12.5,12.5,0,0,1,12.5,0Z" transform="translate(727 538)" fill="#707070"/>
+  </g>
+</svg>

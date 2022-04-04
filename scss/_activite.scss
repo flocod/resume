@@ -1,0 +1,274 @@
+.activite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    @media all and (max-width:1200px){
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 30px;
+    }
+    @media all and (max-width:413px){
+      margin-top: 0px;
+     }
+
+    .left {
+      @media all and (max-width:1200px){
+        margin-bottom: 30px;
+      }
+      @media all and (max-width:413px){
+        margin-bottom: 15px;
+      }
+      .text1 {
+        font: normal normal 900 79px/79px Montserrat;
+        letter-spacing: 0px;
+        color: #fe8a06;
+        display: block;
+        @media all and (max-width:413px){
+          font: normal normal 900 50px/50px Montserrat;
+        }
+      }
+
+      .text2 {
+        display: block;
+        font: normal normal 600 33px/33px Montserrat;
+        letter-spacing: 0px;
+        color: #fafafa;
+        text-transform: uppercase;
+
+        @media all and (max-width:413px){
+          font: 600 22px / 22px Montserrat;
+        }
+
+      }
+    }
+
+    .right {
+      display: block;
+      width: 70%;
+      color: #707070;
+      @media all and (max-width:782px){
+       width: 100%;
+       }
+      .text {
+        display: inline-block;
+        font: normal normal 600 31px/45px Montserrat;
+        letter-spacing: 0px;
+        @media all and (max-width:964px){
+         font-size: 20px;
+         line-height: normal;
+        }
+        @media all and (max-width:413px){
+         font-size: 14px;
+        }
+       
+      }
+    }
+  }
+
+  .flex_activite {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+
+    @media all and (max-width:964px){
+      margin-top:70px;
+     }
+
+    .ilus {
+      display: block;
+      width: 30%;
+      @media all and (max-width:1193px){
+        display: none;
+      }
+      img {
+        width: 50%;
+        display: inline-block;
+      }
+      .citation{
+        font: normal normal 300 14px/22px Poppins;
+        letter-spacing: 0px;
+        color: #fafafa;
+        text-transform: uppercase;
+        display: block;
+        margin-top: 80px;
+        width: 200px;
+      }
+    }
+
+    .contain_activity {
+      display: flex;
+      width: 68%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      @media all and (max-width:1193px){
+        width: 100%;
+      }
+
+      .activity_box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 46%;
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    
+        background-color: #21212104;
+        background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre-big.png");
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 33px;
+        cursor: pointer;
+        transition: .6s ease;
+        margin-bottom: 70px;
+        border: 6px solid rgba(255, 255, 255, 0.021);
+
+
+        @media all and (max-width:1200px){
+          padding-top: 20px;
+          padding-bottom: 40px;
+        }
+        @media all and (max-width:782px){
+          width: 100%;
+          margin-bottom: 30px;
+        }
+
+
+        *{
+            transition: 0.4s ease;
+        }
+
+        .struct {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          width: 80%;
+
+          .ico {
+            font-size: 60px;
+            color: #fe8a06;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+                height: 100px;
+                transition: 0.4s ease;
+                border-radius: 50%;
+                position: relative;
+                transition: 0.4s ease;
+
+                @media all and (max-width:471px){
+                 font-size: 40px;
+                 line-height: 0px;
+                 height: 50px;
+                 margin-top: 30px;
+                }
+
+                &::after{
+                    width: 30%;
+                    height: 30%;
+                    content: " ";
+                    background: rgba(255, 0, 0, 0);
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    top: 50%;
+
+                 
+                    transform: translateX(0%) translateY(-50%);
+                
+                    transition: 0.3s ease;
+                }
+                &::before{
+                    width: 30%;
+                    height: 30%;
+                    content: " ";
+                    background: rgba(255, 0, 0, 0);
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 50%;
+
+                    right: 0px;
+                    transform: translateX(0%) translateY(-50%);
+                    transition: 0.3s ease;
+                }
+
+          }
+
+          .title {
+            font: normal normal 600 20px/33px Montserrat;
+            letter-spacing: 0px;
+            color: #fafafa;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            text-align: center;
+            @media all and (max-width:471px){
+     
+             font-size: 14px;
+             line-height: normal;
+             }
+          }
+
+          .descr {
+            font: normal normal normal 14px/21px Poppins;
+            letter-spacing: 0px;
+            color: #969696;
+
+            @media all and (max-width:471px){
+           
+             font-size: 13px;
+             line-height: normal;
+             }
+           
+          }
+        }
+
+        &:hover{
+         
+            transition: 0.4s ease;
+          
+            // box-shadow: -8px -8px  0px 0px #fe8a0662;
+            .title{
+                
+                transition: 0.5s ease;
+            }
+            .ico {
+                font-size: 30px;
+                color: #fe8a06;
+                display: flex;
+                width: 100px;
+                height: 100px;
+                background: #fe8a06;
+                color: #212121;
+                border-radius: 50%;
+                transition: 0.3s ease;
+
+                &::after{
+                    background: #fe8a06;
+                    transition: 0.4s ease;
+                    transform: translateX(-50%) translateY(-50%);
+                }
+                &::before{
+                    background: #fe8a06;
+                    transition: 0.4s ease;
+                    transform: translateX(50%) translateY(-50%);
+                }
+
+              }
+        }
+
+      }
+    }
+  }
+}

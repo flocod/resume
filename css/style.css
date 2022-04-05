@@ -1,6 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@font-face {
+  font-family: 'logo';
+  src: url("../polices/PROMETHEUS.woff2") format("woff2"), url("../polices/PROMETHEUS.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'snap';
+  src: url("../polices/SnapITC-Regular.woff2") format("woff2"), url("../polices/SnapITC-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /**
 Thin 100
 Extra-light 200
@@ -344,7 +360,7 @@ canvas {
 
 .header .logo_name {
   display: inline-block;
-  font: normal normal normal 20px/22px PROMETHEUS;
+  font: normal normal normal 20px/22px logo;
   letter-spacing: 0px;
   color: #fe8a06;
   text-transform: uppercase;
@@ -352,7 +368,7 @@ canvas {
 
 @media all and (max-width: 818px) {
   .header .logo_name {
-    font: normal normal normal 16px/14px PROMETHEUS;
+    font: normal normal normal 16px/14px logo;
   }
 }
 
@@ -703,7 +719,7 @@ canvas {
 }
 
 .banner .flex .block_text .text1 {
-  font: normal normal normal 30px/59px Snap ITC;
+  font: normal normal normal 30px/59px snap;
   letter-spacing: 0px;
   color: #fe8a06;
   display: block;
@@ -712,7 +728,7 @@ canvas {
 
 @media all and (max-width: 600px) {
   .banner .flex .block_text .text1 {
-    font: normal normal normal 25px/25px Snap ITC;
+    font: normal normal normal 25px/25px snap;
   }
 }
 

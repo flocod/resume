@@ -19,12 +19,12 @@
 
   .logo_name {
     display: inline-block;
-    font: normal normal normal 20px/22px PROMETHEUS;
+    font: normal normal normal 20px/22px logo;
     letter-spacing: 0px;
     color: #fe8a06;
     text-transform: uppercase;
     @media all and (max-width: 818px) {
-      font: normal normal normal 16px/14px PROMETHEUS;
+      font: normal normal normal 16px/14px logo;
     }
   }
 

@@ -4,6 +4,26 @@ $theme: #194056;
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@font-face {
+  font-family: 'logo';
+  src: url('../polices/PROMETHEUS.woff2') format('woff2'),
+      url('../polices/PROMETHEUS.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'snap';
+  src: url('../polices/SnapITC-Regular.woff2') format('woff2'),
+      url('../polices/SnapITC-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 /**
 Thin 100
 Extra-light 200

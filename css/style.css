@@ -2688,6 +2688,18 @@ canvas {
   color: white;
 }
 
+.contact .contact_block .info_contact .text .signature {
+  font-size: 20px;
+  color: #bdbdbd;
+  margin-top: 35px;
+}
+
+@media all and (max-width: 447px) {
+  .contact .contact_block .info_contact .text .signature {
+    font-size: 13px;
+  }
+}
+
 .contact .contact_block .form_courrier {
   display: block;
   width: 50%;
@@ -2714,10 +2726,24 @@ canvas {
   margin-bottom: 35px;
 }
 
+@media all and (max-width: 630px) {
+  .contact .contact_block .form_courrier .style_input {
+    font-size: 14px;
+    text-transform: capitalize;
+  }
+}
+
 .contact .contact_block .form_courrier textarea {
   height: 200px;
   display: block;
   margin-bottom: 0px;
+}
+
+@media all and (max-width: 630px) {
+  .contact .contact_block .form_courrier textarea {
+    height: 100px;
+    font-size: 14px;
+  }
 }
 
 .contact .contact_block .form_courrier button {
@@ -2738,4 +2764,14 @@ canvas {
   border: none;
   border: 2px solid #bdbdbd;
   cursor: pointer;
+}
+
+@media all and (max-width: 630px) {
+  .contact .contact_block .form_courrier button {
+    height: 60px;
+    font-size: 14px;
+    text-transform: capitalize;
+    border: 1px solid #bdbdbd;
+    border-radius: 14px;
+  }
 }

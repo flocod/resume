@@ -574,7 +574,7 @@ canvas {
           align-items: center;
 }
 
-.mob .struct .menu_footer .social_menu span {
+.mob .struct .menu_footer .social_menu a {
   display: block;
   margin-right: 18px;
   color: #969696;
@@ -584,7 +584,7 @@ canvas {
   cursor: pointer;
 }
 
-.mob .struct .menu_footer .social_menu span:hover {
+.mob .struct .menu_footer .social_menu a:hover {
   color: #212121;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -791,7 +791,7 @@ canvas {
   margin-top: 20px;
 }
 
-.banner .flex .block_text .socials span {
+.banner .flex .block_text .socials a {
   margin-right: 27px;
   color: #969696;
   font-size: 27px;
@@ -799,21 +799,21 @@ canvas {
   cursor: pointer;
 }
 
-.banner .flex .block_text .socials span:hover {
+.banner .flex .block_text .socials a:hover {
   -webkit-animation: shake 0.2s ease 1;
           animation: shake 0.2s ease 1;
   color: white;
 }
 
 @media all and (max-width: 1056px) {
-  .banner .flex .block_text .socials span {
+  .banner .flex .block_text .socials a {
     margin-right: calc(27px/2);
     margin-left: calc(27px/2);
   }
 }
 
 @media all and (max-width: 600px) {
-  .banner .flex .block_text .socials span {
+  .banner .flex .block_text .socials a {
     text-align: left;
     margin-right: 27px;
     margin-left: 0px;

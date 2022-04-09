@@ -1922,13 +1922,15 @@ canvas {
 }
 
 .projets .container_projets .projet .struct .logo_projet {
-  width: 50px;
+  width: auto;
+  height: 65px;
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
 .projets .container_projets .projet .struct .logo_projet img {
-  width: 100%;
+  width: auto;
+  height: 100%;
 }
 
 .projets .container_projets .projet .struct .title_projet {
@@ -1944,6 +1946,7 @@ canvas {
   color: #969696;
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .projets .container_projets .projet .struct .btn_projet {
@@ -2259,14 +2262,15 @@ canvas {
 
 .experience .contain_experience .struct .experience_item .trois .descr {
   display: block;
-  font: normal normal 600 12px/20px Montserrat;
+  font: normal normal 500 14px/20px Montserrat;
   letter-spacing: 0px;
   color: #bdbdbd;
 }
 
 @media all and (max-width: 1000px) {
   .experience .contain_experience .struct .experience_item .trois .descr {
-    font-size: 12px;
+    font-size: 13px;
+    letter-spacing: normal;
     line-height: normal;
     font-weight: normal;
   }

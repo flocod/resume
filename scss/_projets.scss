@@ -37,11 +37,13 @@
 
         .logo_projet {
           // display: none;
-          width: 50px;
+          width: auto;
+          height: 65px;
           margin-top: 30px;
           margin-bottom: 20px;
           img {
-            width: 100%;
+            width: auto;
+            height: 100%;
           }
         }
 
@@ -58,6 +60,7 @@
           color: #969696;
           margin-top: 20px;
           margin-bottom: 20px;
+          text-align: justify;
         }
 
         .btn_projet {
